@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Patrick Daly -- Owner/Developer -- @developdaly
+
+# THANKS
+
+    HTML5Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, Modernizr

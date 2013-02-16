@@ -1,4 +1,8 @@
-Verb-Denton
-===========
+# [Verb Denton](http://verbdenton.com)
 
-Coming soon.
+Verb Denton compiles the awesome things going on Denton and
+makes them easy to find.
+
+## Contributing
+
+Anyone and everyone is welcome to [contribute](CONTRIBUTING.md).
