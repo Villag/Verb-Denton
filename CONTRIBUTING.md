@@ -15,11 +15,11 @@ project:
 
    ```bash
    # Clones your fork of the repo into the current directory in terminal
-   git clone https://github.com/<your-username>/html5-boilerplate.git
+   git clone https://github.com/<your-username>/verb-denton.git
    # Navigate to the newly cloned directory
    cd html5-boilerplate
    # Assigns the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/h5bp/html5-boilerplate.git
+   git remote add upstream https://github.com/developdaly/verb-denton.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
