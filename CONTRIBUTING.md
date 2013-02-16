@@ -1,15 +1,5 @@
 # Contributing to Verb Denton
 
-♥ [HTML5 Boilerplate](http://html5boilerplate.com) and want to get involved?
-Thanks! There are plenty of ways you can help!
-
-
-## New Sites
-
-**Use the GitHub issue feature** &mdash; submit new sites as an **enhancement**
-	for consideration.
-
-
 ## Pull requests
 
 Make changes yourself and submit them as pull requests for consideration to be
