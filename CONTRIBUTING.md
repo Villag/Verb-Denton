@@ -1,5 +1,7 @@
 # Contributing to Verb Denton
 
+**[Request a new site to be added to Verb Denton](https://github.com/developdaly/Verb-Denton/issues/new)** and label as "enhancement".
+
 ## Pull requests
 
 Make changes yourself and submit them as pull requests for consideration to be
