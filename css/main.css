@@ -1,11 +1,3 @@
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -257,14 +249,35 @@ h1 {
     *zoom: 1;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+@media (max-width: 480px) {
+	body {
+		font-size: .75em;
+		padding: 10px;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	.intro span {
+		font-size: 40px;
+		padding: 2px;
+	}
+	#index a {
+		font-size: 24px;
+		margin: 0 10px 10px 0;
+		padding: 10px;
+	}
+}
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 979px) {
+
+}
+
+@media (min-width: 980px) {
+	
 }
 
 @media print,
