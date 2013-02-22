@@ -17,9 +17,9 @@ project:
    # Clones your fork of the repo into the current directory in terminal
    git clone https://github.com/<your-username>/verb-denton.git
    # Navigate to the newly cloned directory
-   cd html5-boilerplate
+   cd Verb-Denton
    # Assigns the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/developdaly/verb-denton.git
+   git remote add upstream https://github.com/developdaly/Verb-Denton.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
