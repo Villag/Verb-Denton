@@ -1,6 +1,6 @@
 # Contributing to Verb Denton
 
-**[Request a new site to be added to Verb Denton](https://github.com/developdaly/Verb-Denton/issues/new)** and label as "enhancement".
+**[Request a new site to be added to Verb Denton](https://github.com/Verb-Denton/Verb-Denton/issues/new)** and label as "enhancement".
 
 ## Pull requests
 
@@ -19,7 +19,7 @@ project:
    # Navigate to the newly cloned directory
    cd Verb-Denton
    # Assigns the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/developdaly/Verb-Denton.git
+   git remote add upstream https://github.com/Verb-Denton/Verb-Denton.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
