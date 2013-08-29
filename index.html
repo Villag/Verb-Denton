@@ -120,8 +120,6 @@
 				url: "ga.php",
 			}).done(function( response ) {
 				var data = $.parseJSON( response );
-				console.log( data.rows );
-
 				var myStringArray = data.rows;
 				for (var i = 0; i < myStringArray.length; i++) {
 					console.log(myStringArray[i][0]);
