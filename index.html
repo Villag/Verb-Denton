@@ -122,7 +122,6 @@
 				var data = $.parseJSON( response );
 				var myStringArray = data.rows;
 				for (var i = 0; i < myStringArray.length; i++) {
-					console.log(myStringArray[i][0]);
 					$('#sites a[href$="' + myStringArray[i][0] + '"]').attr( 'data-hits', myStringArray[i][1] ).tsort({data:'hits'});
 				}
 			});
