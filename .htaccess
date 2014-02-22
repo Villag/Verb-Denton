@@ -9,6 +9,8 @@
 #   perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
 #   Sample .htaccess file of CMS MODx: modxcms.com
 
+# Use PHP 5.3
+AddType application/x-httpd-php53 .php
 
 # ----------------------------------------------------------------------
 # Better website experience for IE users
@@ -105,7 +107,7 @@ AddEncoding gzip                       svgz
 # Webfonts
 AddType application/vnd.ms-fontobject  eot
 AddType application/x-font-ttf         ttf ttc
-AddType application/x-font-woff        woff
+AddType application/font-woff          woff
 AddType font/opentype                  otf
 
 # Assorted types
