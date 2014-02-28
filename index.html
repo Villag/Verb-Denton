@@ -97,8 +97,6 @@
 
 		</div>
 
-		<script src="js/vendor/jquery.tinysort.min.js"></script>
-
 		<script type="text/javascript">
 
 		$(function() {
@@ -113,17 +111,6 @@
 					     e.preventDefault();
 					     setTimeout('document.location = "' + url + '"', 100);
 					}
-				}
-			});
-
-			$.ajax({
-				type: "POST",
-				url: "ga.php",
-			}).done(function( response ) {
-				var data = $.parseJSON( response );
-				var myStringArray = data.rows;
-				for (var i = 0; i < myStringArray.length; i++) {
-					$('#sites a[href$="' + myStringArray[i][0] + '"]').attr( 'data-hits', myStringArray[i][1] ).tsort({data:'hits'});
 				}
 			});
 		});
